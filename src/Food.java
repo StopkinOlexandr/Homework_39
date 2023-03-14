@@ -29,16 +29,16 @@ public class Food {
     this.calories = calories;
   }
 
-  public int getCalories(){
+  public int getCalories() {
     return this.calories;
   }
 
-  public Food (String name, int calories) {
+  public Food(String name, int calories) {
     this.name = name;
     this.calories = calories;
   }
 
-  public void eatFood (String name) {
+  public void eatFood(String name) {
     System.out.println("You have eat " + this.name + " and get " + this.calories + " calories");
   }
 }
