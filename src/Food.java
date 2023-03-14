@@ -33,7 +33,7 @@ public class Food {
     return this.calories;
   }
 
-  public Food(){
+  public Food() {
 
   }
 
