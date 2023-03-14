@@ -33,6 +33,10 @@ public class Food {
     return this.calories;
   }
 
+  public Food(){
+
+  }
+
   public Food(String name, int calories) {
     this.name = name;
     this.calories = calories;
